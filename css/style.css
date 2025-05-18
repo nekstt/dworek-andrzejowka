@@ -460,6 +460,22 @@ footer {
     color: var(--accent-color);
 }
 
+.privacy-links{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.privacy-links a {
+    color: #aaa;
+    font-size: smaller;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: var(--body-font);
+}
+
 .social-icons {
     margin: 20px 0;
 }
