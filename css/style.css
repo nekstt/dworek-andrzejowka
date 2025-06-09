@@ -784,3 +784,86 @@ footer {
         max-width: 100%;
     }
 }
+
+.attractions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: stretch;
+}
+
+.attraction-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.attraction-card h3 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.attraction-card p {
+    color: #555;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.closing-text {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 2rem;
+}
+
+.closing-text b {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+    #atrakcje {
+        padding: 1rem;
+    }
+
+    #atrakcje h2 {
+        font-size: 2rem;
+    }
+
+    .attractions-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .attraction-card {
+        padding: 1.5rem;
+    }
+
+    .attraction-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .closing-text {
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .attractions-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
