@@ -215,6 +215,7 @@ const galleryModule = {
         'img/gallery/1.jpg',
         'img/gallery/2.jpg',
         'img/gallery/3.jpg',
+        'img/gallery/4.jpg',
         'img/gallery/5.jpg',
         'img/gallery/6.jpg',
         'img/gallery/7.jpg',
@@ -222,8 +223,7 @@ const galleryModule = {
         'img/gallery/9.jpg',
         'img/gallery/10.jpg',
         'img/gallery/11.jpg',
-        'img/gallery/12.jpg',
-        'img/gallery/13.jpg'
+        'img/gallery/12.jpg'
     ],
     
     // Current image index
